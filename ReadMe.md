@@ -16,7 +16,7 @@ I have experience with a range of technologies, including:
 
 ## Education
 
-- **[Your Degree](https://theopenuniversity.com)**, the open university, 2024
+- **(https://theopenuniversity.com)**, the open university, 2024
 
 
 Thank you for visiting my profile! I’m always open to collaborating on interesting projects or discussing new opportunities.
