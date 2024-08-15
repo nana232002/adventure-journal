@@ -1,0 +1,15 @@
+.card-image{
+    width:600px;
+    height: 500px;
+    border: 0.1rem solid rgb(0, 0, 0);
+}
+.b{
+    width: 600px;
+    height:800;
+    border: 0.1rem solid rgb(0, 0, 0);
+    background-color: lemonchiffon;
+    box-shadow:  50px 50px 100px rgba(0, 0, 0, 0.4);
+}
+p{
+    color: blueviolet;
+}

@@ -1,0 +1,31 @@
+.a{
+    width: 700px;
+    height: 700px;
+    background-color: antiquewhite;
+    box-shadow:  70px 70px 200px rgba(0, 0, 0, 0.4);
+    
+    border: 1px solid black;
+    padding: 4px;
+    margin: 0 auto;
+
+
+}
+h1 {
+    color: crimson;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color: blueviolet;
+    font-style: oblique;
+    text-align: left;
+    font-size: large;
+}
+.a section.m{
+    color:crimson;
+    font-style: oblique;
+    text-align: left;
+    font-size: large;
+}
+ 

@@ -1,0 +1,40 @@
+.greeting-card{
+    width: 500px;
+    height: 500px;
+    border-color: black;
+    padding: 1px;
+    border-radius: 2px;
+    border-style: outset;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+header{
+    font-size: x-large;
+    color: darkblue;
+}
+p{
+    font-size: large;
+    color: blue;
+}
+#nav-bar{
+    text-align: center;
+    width: 150px;
+    height: auto;
+    color :black;
+    background-color:rgb(197, 254, 255);
+    font-size: x-large;
+
+}
+blockquote{
+    width: 500px;
+    height: 60px;
+    color :black;
+    background-color:rgb(197, 254, 255);
+    font-size: x-large;
+    margin: 0 auto;
+    box-shadow:   10px 10px 20px;
+    border-color: aqua;
+    padding: 1px;
+    text-align: center;
+}
