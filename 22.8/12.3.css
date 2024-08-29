@@ -1,0 +1,36 @@
+.section{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    /* z-index: -1;  */
+}
+.section::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border: 3px solid red; 
+    position: absolute;
+    /* z-index: 1; */
+    
+
+}
+.section::before {
+    content: "cool border";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    background-color: black;
+    position: absolute;
+    z-index: 1; 
+    
+
+}
+

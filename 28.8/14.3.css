@@ -1,0 +1,43 @@
+
+.section{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around ;
+}
+
+#nav1,#nav2,#nav3,#nav4{
+    width: 70px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center; */
+
+}
+#nav1::after ,#nav2::after,#nav3::after,#nav4::after{
+    content: "";
+    width: 70px;
+    height: 30px;
+    display: block; 
+    position: relative;
+    bottom: 20px;
+    overflow: hidden;
+    transition: transform 3s ,width 3s;
+}
+
+
+#nav1:hover::after,#nav2:hover::after,#nav3:hover::after,#nav4:hover::after{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width : 0px;
+    transform: translateX(100px);
+    transform: translateX(-100px);
+} 
+
+
+
+
+

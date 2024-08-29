@@ -1,0 +1,18 @@
+a#href {
+    text-decoration: none;
+    display: inline-block; /* Ensure pseudo-elements are visible */
+    color: blueviolet;
+}
+
+
+a#href::before {
+    content: "Please visit this ";
+    color: black;
+    display: inline;
+}
+a#href::after{
+    content: " (" attr(href) ") for more information";
+    color: black;
+    display: inline;
+    
+}
