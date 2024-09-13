@@ -33,25 +33,42 @@ function LowestNumbers(array1){
 
 
     //////////Ex2.2 One and Zero - Binary
-    function OneZero(array1){
-        /// convert the array to binary number
-        let num =array1[0];
-        for(let i = 1; i <array1.length; i++){
-            if(array1[i]!==0 && array1[i]!==1){//checks if there the values 1 or 0
-                return "uncorrect input";
-            }
-            num = num*10 + array1[i];
-            console.log(num);
-            
-        }
-        console.log(num);
+    function OneZero(array1) {
+        let num = 0;
         
-        // for(let i= 0 ;i<4;i++){//checks if there is atleast 4 positive values
-        //     if(array2[i]<0)
-        //         return "uncorrect input";
-        // }
-        // return array2[array2.length-1]+array2[array2.length-2];
+        for (let i = array1.length - 1; i >= 0; i--) {
+            if (array1[i] !== 0 && array1[i] !== 1) { // Check if the value is 0 or 1
+                return "incorrect input"; // Typo corrected
+            }
+            num = num + array1[i] * Math.pow(2, array1.length - 1 - i); // Corrected exponentiation
         }
-        console.log("test EX2.2");
-        const array=[1,0,1,1,0];
-        console.log(OneZero(array));///test
+        
+    return num;
+    }
+    //test
+    const array=[1,0,1,1,0];
+    console.log(OneZero(array));
+
+//////////Ex2.3 - Find the Next Perfect Square
+
+function PerfectSquar(num) {
+    let x = Math.sqrt(num);
+    if(x %1 !== 0) //check if the num have perfect sqrt
+    return -1;
+    return (x+1)*(x+1);
+    
+}
+console.log("test EX2.3");
+console.log(PerfectSquar(16));
+console.log(PerfectSquar(7));
+
+//////////Ex2.4 - Unique
+function Uniqe(array1) {
+    if (array1.length <4)//check thet there is at least 3 valuse in the array
+        return "uncorrect"
+    let count =0;
+    let num1 =array[0];
+
+}
+console.log("test EX2.3");
+console.log(PerfectSquar(16));
